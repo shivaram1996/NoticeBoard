@@ -13,12 +13,7 @@ class NetworkManager
     
     private init(){}
     
-    
-    
-    
-    
-    
-    
+
     //MARK: Parse network response
     
     

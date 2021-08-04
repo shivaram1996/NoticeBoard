@@ -6,21 +6,20 @@
 //
 
 import Foundation
-import Metal
 
 
 struct Notice : Codable
 {
-    let data:[NoticeItems]
+    let data:[NoticeItem]
     
 }
 
-struct NoticeItems : Codable
+struct NoticeItem : Codable
 {
     let id : String
     let title:String
     let date:String
-    let noticeTitle:String
+    let noticeText:String
     let teacher: String
     let image : String
     
@@ -28,9 +27,10 @@ struct NoticeItems : Codable
             case id
             case title = "notice_title"
             case date = "date_time"
-            case noticeTitle = "notice_text"
+            case noticeText = "notice_text"
             case teacher = "teacher_name"
             case image = "notice_image"
         }
+    
 }
 
