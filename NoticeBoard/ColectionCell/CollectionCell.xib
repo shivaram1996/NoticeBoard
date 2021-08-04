@@ -22,12 +22,24 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact-widthClass=compact">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            </variation>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsX-Y2-brq">
                             <rect key="frame" x="0.0" y="439.5" width="404" height="17"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact-widthClass=compact">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                            </variation>
                         </label>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
