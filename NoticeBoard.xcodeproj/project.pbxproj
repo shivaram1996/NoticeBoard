@@ -49,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7BF13226BA5FB5004E7B57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB00AF26BA44B400AEEFA0 /* DetailViewController.swift */,
+				1AFB009026B9729000AEEFA0 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		1AFB008026B9729000AEEFA0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,17 +77,16 @@
 		1AFB008B26B9729000AEEFA0 /* NoticeBoard */ = {
 			isa = PBXGroup;
 			children = (
+				1A7BF13226BA5FB5004E7B57 /* Controllers */,
 				1AFB00AA26BA25E000AEEFA0 /* ColectionCell */,
 				1AFB00A726B97A1200AEEFA0 /* Model */,
 				1AFB00A026B974D100AEEFA0 /* Network */,
 				1AFB008C26B9729000AEEFA0 /* AppDelegate.swift */,
 				1AFB008E26B9729000AEEFA0 /* SceneDelegate.swift */,
-				1AFB009026B9729000AEEFA0 /* ViewController.swift */,
 				1AFB009226B9729000AEEFA0 /* Main.storyboard */,
 				1AFB009526B9729300AEEFA0 /* Assets.xcassets */,
 				1AFB009726B9729300AEEFA0 /* LaunchScreen.storyboard */,
 				1AFB009A26B9729300AEEFA0 /* Info.plist */,
-				1AFB00AF26BA44B400AEEFA0 /* DetailViewController.swift */,
 			);
 			path = NoticeBoard;
 			sourceTree = "<group>";
